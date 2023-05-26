@@ -1,6 +1,6 @@
 # SuperScrollView
 
-This package add the SuperScrollView, an scroll view that provides `scroll offset`, `scroll content size` and if its currently scrolling, it also brings ScrollProxy in case you need it.
+This package add the SuperScrollView, an scroll view that provides `scrollOffset`, `scrollSize` and `isScrolling`, it also brings `ScrollViewProxy` in case you need it.
 
 ## Requirements
 
@@ -36,7 +36,7 @@ This SuperScrollView uses bindings to give you updated data
             Text("Size Height: \(scrollSize.height)")
             Text("Is scrolling: \(isScrolling.description)")
             HStack {
-                SuperScrollView(offset: $scrollOffset, size: $scrollSize, isScrolling: $isScrolling) { scrollProxy in
+                SuperScrollView(offset: $scrollOffset, size: $scrollSize, isScrolling: $isScrolling) { scrollViewProxy in
                     ForEach(0..<100) { index in
                         Text("This is row \(index)")
                     }
