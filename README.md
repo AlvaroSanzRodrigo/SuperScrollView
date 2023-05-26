@@ -52,3 +52,6 @@ This SuperScrollView uses bindings to give you updated data
 This libary uses `IsScrolling` from [fatbobman/IsScrolling](https://github.com/fatbobman/IsScrolling)
 
 ## License
+
+This library is released under the MIT license. See [LICENSE](https://github.com/AlvaroSanzRodrigo/SuperScrollView/blob/main/LICENSE) for details.
+
